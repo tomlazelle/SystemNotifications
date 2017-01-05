@@ -5,7 +5,7 @@ var configuration = Argument("configuration", "Release");
 
 var workingFolder = Directory("./").ToString();
 var buildDir = Directory("./SystemNotifications/bin/") + Directory(configuration);
-var sln = "./EventSourceFramework.sln";
+var sln = "./SystemNotifications.sln";
 
 var appName = "SystemNotifications";
 var version = "1.0.0.0";
